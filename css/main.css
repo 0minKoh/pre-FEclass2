@@ -466,6 +466,8 @@ h3 {
 
 .background3 .btn {
   position: absolute;
+  font-size: 30px;
+  color: #fffcff;
   left: 30%;
   top: 56%;
   width: 250px;
@@ -476,17 +478,23 @@ h3 {
   transition: background-color 1s;
 }
 
+/* .background3 .btn span {
+  font-weight: 400;
+  font-size: 30px;
+  color: #FFFCFC;
+} */
+
 .background3 .btn:hover {
   background-color: #FF00CC;
 }
 
-.background3 .btn .F {
+/* .background3 .btn .F {
   position: absolute;
   font-weight: 300;
   font-size: 30px;
   left: 23%;
   top: 27%;
-}
+} */
 
 .background3 .app {
   position: absolute;
