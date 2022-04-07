@@ -18,6 +18,11 @@ body {
   overflow: hidden;
 }
 
+
+.background1 .fadeIn {
+  opacity: 0;
+}
+
 .background1 .rectangle1 {
   position: absolute;
   width: 103vw;
@@ -141,6 +146,10 @@ h3 {
   width: 100vw;
   height: 1443px;
   background-color: #FFFCFC;
+}
+
+.background2 .fadeIn {
+  opacity: 0;
 }
 
 .background2 .text-container {
@@ -604,114 +613,35 @@ h3 {
   z-index: 1;
   width: 100vw;
   height: 1800px;
-  background-color: #FFFCFC;
+  background-color: #fffcfc;
   overflow: hidden;
 }
 
-.background5 .bg {
-  position: absolute;
-  width: 100%;
-  top: -480px;
-  max-height: 100%;
-  min-height: 94%;
+.background5 .swiper {
+  width: 70%;
+  height: 70%;
 }
 
-.background5 .M {
-  position: absolute;
-  width: 252px;
-  margin: 5% auto;
-  left: 0px;
-  right: 0px;
-  font-weight: 500;
-  font-size: 55px;
-  color: #000;
+:root {
+  --swiper-pagination-bullet-size: 20px;
+  --swiper-navigation-size: 100px;
 }
 
-.background5 .code {
-  position: absolute;
-  margin: 0 auto;
-  top: 15%;
-  left: 0px;
-  right: 0px;
-  width: auto;
-  height: 300px;
+.background5 .swiper .swiper-wrapper {
+  display: flex;
+  align-items: center;
 }
 
-.background5 .B {
-  position: absolute;
-  left: 37%;
-  top: 36%;
+.background5 .swiper .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 700px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   font-size: 30px;
-  color: #8f8f8f;
-  font-weight: 300;
-}
-
-.background5 .picture {
-  position: absolute;
-  margin: 900px auto;
-  left: 0px;
-  right: 0px;
-  width: 435px;
-  height: 83px;
-}
-
-.background5 .picture .face-container {
-  z-index: 2;
-  position: absolute;
-  left: 10%
-}
-
-.background5 .picture .face-container .face {
-  z-index: 3;
-  position: absolute;
-  width: 83px;
-  height: 83px;
-  background-color: #fff;
-  border-radius: 100%;
-}
-
-.background5 .picture .Y {
-  position: absolute;
-  left: 150px;
-  font-size: 25px;
-  color: #8f8f8f;
-  font-weight: 300;
-}
-
-.background5 .btn {
-  position: absolute;
-  left: 46.5%;
-  bottom: 30%;
-  width: 200px;
-  height: 50px;
-}
-
-.background5 .btn .btn1 {
-  position: absolute;
-  width: 21px;
-  height: 21px;
-  border-radius: 100%;
-  background-color: #ff17cc;
-}
-
-.background5 .btn .btn2 {
-  position: absolute;
-  left: 38%;
-  top: -5%;
-  width: 21px;
-  height: 21px;
-  border: 3px solid #FF17cc;
-  border-radius: 100%;
-  background-color: #fff;
-}
-
-.background5 .btn .btn3 {
-  position: absolute;
-  left: 80%;
-  width: 21px;
-  height: 21px;
-  border-radius: 100%;
   background-color: #ff17cc;
 }
 
