@@ -45,3 +45,20 @@ const swiper = new Swiper(".swiper", {
     prevEl: ".swiper-button-prev",
   }
 })
+
+//badge
+const badgeEl = document.querySelector('.badge')
+
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 500) {
+    gsap.to(badgeEl, 0.6, {
+      opacity: 0,
+      display: 'none'
+    })
+  } else {
+    gsap.to(badgeEl, 0.6, {
+      opacity: 1,
+      display: 'block'
+    })
+  }
+})

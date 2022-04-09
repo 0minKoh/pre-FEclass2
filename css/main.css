@@ -10,6 +10,23 @@ body {
   font-family: 'Segoe Ui', 'Sans-serif';
 }
 
+
+.badge {
+  z-index: 2;
+  position: fixed;
+  width: fit-content;
+  height: fit-content;
+  top: 132px;
+  right: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 4px 4px 10px rgba(0,0,0,.16);
+}
+
+/* .badge img {
+  transform: scale(0.5);
+} */
+
 .background1 {
   position: relative;
   width: 100vw;
