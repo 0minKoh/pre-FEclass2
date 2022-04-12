@@ -657,31 +657,28 @@ h3 {
 }
 
 .background5 .swiper {
-  width: 70%;
+  /* 너비와 높이를 사진 크기에 맞게 수정*/
+  width: 80%;
   height: 70%;
-}
-
-:root {
-  --swiper-pagination-bullet-size: 20px;
-  --swiper-navigation-size: 100px;
-}
-
-.background5 .swiper .swiper-wrapper {
-  display: flex;
-  align-items: center;
+  /* 사진의 크기가 초과할 경우 초과된 부분 숨김 */
+  overflow: hidden;
 }
 
 .background5 .swiper .swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 700px;
-  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 30px;
+  /* 눈에 띄는 분홍색으로 색 수정 */
   background-color: #ff17cc;
+  /* 글씨 크기 증가 */
+  font-size: 30px;
+}
+
+/* bullet 크기와 간격 증가 */
+:root {
+  --swiper-pagination-bullet-size: 16px;
+  --swiper-pagination-bullet-horizontal-gap: 8px;
 }
 
 .background5 .oap {
